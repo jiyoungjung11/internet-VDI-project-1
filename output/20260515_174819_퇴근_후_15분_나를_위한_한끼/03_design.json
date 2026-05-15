@@ -1,0 +1,289 @@
+{
+  "total_sections": 12,
+  "canvas": {
+    "width": 860,
+    "estimated_height": 10200
+  },
+  "color_palette_applied": {
+    "primary": "#8B3A2A",
+    "secondary": "#C0714F",
+    "accent": "#D4A843",
+    "background": "#FFFFFF",
+    "bg_light": "#FAF5EE",
+    "text_primary": "#1A1A1A",
+    "text_secondary": "#555555"
+  },
+  "font": "Pretendard",
+  "icon_libraries": ["Phosphor Icons (duotone, bold, fill)"],
+  "image_generation_status": "failed_all_fallback_to_css",
+  "image_generation_error": "imagen-3.0-generate-002 모델을 현재 API 키로 접근할 수 없습니다 (404 NOT_FOUND). 모든 이미지 영역은 CSS 그라데이션 + Phosphor 아이콘 플레이스홀더로 대체했습니다.",
+  "sections": [
+    {
+      "section_number": 1,
+      "role": "hero",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "hero-immersive",
+      "section_bg": "primary",
+      "has_illustration": true,
+      "illustration_path": "images/illust_01.png",
+      "estimated_height_px": 1200,
+      "design_notes": "풀스크린 다크 그라데이션 배경(CSS 플레이스홀더) + 하단 그라디언트 딤드. 80px ExtraBold 헤드라인 흰색, 80px 헤드라인 + accent 강조 키워드. 배지 rotate(-3deg) accent 배경. 글래스모피즘 소셜프루프 + 금색 별점."
+    },
+    {
+      "section_number": 2,
+      "role": "usp",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "icon-grid",
+      "section_bg": "background",
+      "has_illustration": true,
+      "illustration_path": "images/illust_02.png",
+      "estimated_height_px": 700,
+      "design_notes": "3열 그리드 카드. bg_light 카드 + border-radius 24px + subtle shadow. 첫 카드에 56px ExtraBold accent 숫자 '15분', 나머지 카드는 Phosphor duotone 아이콘. 중앙 정렬 섹션."
+    },
+    {
+      "section_number": 3,
+      "role": "ingredients",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "feature-split",
+      "section_bg": "bg_light",
+      "has_illustration": true,
+      "illustration_path": "images/illust_03.png",
+      "estimated_height_px": 800,
+      "design_notes": "좌측 정사각 이미지(CSS 그라데이션 + Phosphor ph-bowl-food) + 우측 재료 리스트 5개. 재료명 22px Bold primary + 설명 18px Regular. 각 항목 1px divider 구분. 우측 정렬 caption."
+    },
+    {
+      "section_number": 4,
+      "role": "process",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "image-overlay",
+      "section_bg": "primary",
+      "has_illustration": true,
+      "illustration_path": "images/illust_04.png",
+      "estimated_height_px": 800,
+      "design_notes": "풀너비 다크 그라데이션 배경 + primary 색상 55% 딤드. 중앙 정렬 흰색 텍스트. 3개 스텝 카드(글래스모피즘 + 64px ExtraBold accent 숫자). HACCP 인증 배지 accent 배경 + ph-seal-check 아이콘."
+    },
+    {
+      "section_number": 5,
+      "role": "feature_detail",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "feature-split",
+      "section_bg": "background",
+      "has_illustration": true,
+      "illustration_path": "images/illust_05.png",
+      "estimated_height_px": 850,
+      "design_notes": "좌 텍스트 + 우 이미지. BEST SELLER 배지 rotate(-4deg) accent. 메뉴명 48px Bold primary 2줄. 3개 불릿(아이콘 + 제목 + 설명). 영양 정보 3개 태그(bg_light + 30px border-radius). 우측 이미지는 CSS 그라데이션 + ph-bowl-steam 아이콘."
+    },
+    {
+      "section_number": 6,
+      "role": "feature_detail",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "image-text-blend",
+      "section_bg": "bg_light",
+      "has_illustration": true,
+      "illustration_path": "images/illust_06.png",
+      "estimated_height_px": 800,
+      "design_notes": "풀너비 골드-그린 그라데이션 배경 + 우측 60% 영역 bg_light 90% blend 그라데이션. 우측 정렬 텍스트 콘텐츠. NEW 배지(녹색)로 이전 섹션 BEST SELLER(accent)와 색상 차별화. 3개 불릿 + 더 보기 링크."
+    },
+    {
+      "section_number": 7,
+      "role": "how_to_use",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "step-list",
+      "section_bg": "background",
+      "has_illustration": true,
+      "illustration_path": "images/illust_07.png",
+      "estimated_height_px": 950,
+      "design_notes": "중앙 정렬 섹션 타이틀. 3열 스텝 카드(좌측 정렬). 각 스텝: 3:2 비율 이미지(CSS 그라데이션 + Phosphor 아이콘) + 72px ExtraBold accent 번호 + 제목 + 설명. 하단 풀너비 primary 그라데이션 시간 배너 + ph-timer 아이콘."
+    },
+    {
+      "section_number": 8,
+      "role": "testimonial",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "review-cards",
+      "section_bg": "bg_light",
+      "has_illustration": false,
+      "illustration_path": null,
+      "estimated_height_px": 700,
+      "design_notes": "bg_light 섹션 배경. 3열 흰색 카드 + 20px border-radius + 그림자. 별점 #FFD700 금색. 리뷰어 닉네임 primary 색상. 출처 caption."
+    },
+    {
+      "section_number": 9,
+      "role": "testimonial",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "two-column",
+      "section_bg": "background",
+      "has_illustration": true,
+      "illustration_path": "images/illust_09.png",
+      "estimated_height_px": 750,
+      "design_notes": "좌 통계 3카드(64px ExtraBold accent 숫자) + 우 스토리 후기 카드. 통계: 재구매율 78%, 평균 별점 4.9, 누적 판매 50만개. 우측 카드 내 56px 원형 아바타(이니셜 P). 좌측 정렬 섹션 타이틀."
+    },
+    {
+      "section_number": 10,
+      "role": "faq",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "faq-list",
+      "section_bg": "bg_light",
+      "has_illustration": false,
+      "illustration_path": null,
+      "estimated_height_px": 850,
+      "design_notes": "중앙 정렬 헤더 + 좌측 정렬 Q&A 5개. accent 색상의 'Q.' 32px ExtraBold + secondary 'A.' 26px ExtraBold 마커. 각 항목 1px divider 구분. 질문 24px Bold primary, 답변 18px Regular text_secondary."
+    },
+    {
+      "section_number": 11,
+      "role": "notice",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "info-table",
+      "section_bg": "background",
+      "has_illustration": false,
+      "illustration_path": null,
+      "estimated_height_px": 700,
+      "design_notes": "헤더에 64px 원형 accent 배경 + ph-warning 흰색 아이콘. 8행 테이블. 헤더 primary 배경 + 흰색 텍스트. 짝수 행 bg_light, 홀수 행 흰색. border 없이 배경색으로만 행 구분. 16px border-radius로 테이블 모서리 둥글게."
+    },
+    {
+      "section_number": 12,
+      "role": "cta",
+      "html_file": "sections/detail_page.html",
+      "layout_type": "cta-banner",
+      "section_bg": "primary",
+      "has_illustration": true,
+      "illustration_path": "images/illust_12.png",
+      "estimated_height_px": 1000,
+      "design_notes": "풀너비 다크 그라데이션 배경(CSS) + 강한 딤드. 중앙 정렬 흰색 텍스트. '오늘만 10% 할인' 배지 rotate(-3deg). 72px ExtraBold 헤드라인 + accent '나에게' 강조. 28px 대형 CTA 버튼(accent 배경 + 60px border-radius + 골드 글로우 그림자 + ph-arrow-right 아이콘). 하단 글래스모피즘 소셜프루프."
+    }
+  ],
+  "gemini_images_generated": [
+    {
+      "section_number": 1,
+      "path": "images/illust_01.png",
+      "prompt": "따뜻한 텅스텐 조명 아래 원목 식탁 위에 김이 모락모락 나는 정갈한 한끼 밀키트 완성 요리(국밥 또는 비빔밥 스타일)가 놓여 있는 장면. 세라믹 그릇, 나무 젓가락, 리넨 냅킨. 배경은 어두운 저녁 주방. 따뜻하고 식욕 자극적인 분위기. 실사 푸드 포토그래피 스타일.",
+      "size": "860x1200",
+      "status": "failed",
+      "fallback": "css-gradient-placeholder",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음 (404 NOT_FOUND)"
+    },
+    {
+      "section_number": 2,
+      "path": "images/illust_02_a.png",
+      "prompt": "미니멀 플랫 일러스트. 주방 타이머가 15분을 가리키고, 완성된 따뜻한 밥그릇이 옆에 있는 아이콘 스타일 이미지. 테라코타와 골드 컬러. 흰색 배경.",
+      "size": "400x400",
+      "status": "failed",
+      "fallback": "css-number-display",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 2,
+      "path": "images/illust_02_b.png",
+      "prompt": "미니멀 플랫 일러스트. 흰 셰프 모자를 쓴 요리사 캐릭터가 엄지를 들고 있는 아이콘 스타일. 따뜻한 테라코타 포인트, 골드 별점. 흰색 배경.",
+      "size": "400x400",
+      "status": "failed",
+      "fallback": "phosphor-icon-ph-chef-hat",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 2,
+      "path": "images/illust_02_c.png",
+      "prompt": "미니멀 플랫 일러스트. 신선한 당근·시금치·버섯 등 국내산 채소들과 녹색 체크마크 인증 배지. 따뜻한 그린-테라코타 컬러. 흰색 배경.",
+      "size": "400x400",
+      "status": "failed",
+      "fallback": "phosphor-icon-ph-plant",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 3,
+      "path": "images/illust_03.png",
+      "prompt": "위에서 내려다본 플랫레이(flat lay) 스타일. 원목 배경 위에 신선한 국내산 채소(대파, 버섯, 애호박), 단백질(닭가슴살 또는 소고기), 소스 패킷, 면류가 정갈하게 배열된 실사 느낌 푸드 포토그래피. 따뜻한 자연광.",
+      "size": "600x600",
+      "status": "failed",
+      "fallback": "css-gradient-with-phosphor-bowl-food",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 4,
+      "path": "images/illust_04.png",
+      "prompt": "밝고 깨끗한 현대적 식품 제조 주방. 흰 위생복을 입은 요리사들이 신선한 재료를 손질하는 장면. 스테인리스 작업대, 위생적이고 밝은 조명. 신선도와 청결함을 강조한 실사 느낌 푸드 포토그래피 스타일.",
+      "size": "860x700",
+      "status": "failed",
+      "fallback": "css-dark-gradient-with-overlay",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 5,
+      "path": "images/illust_05.png",
+      "prompt": "세라믹 뚝배기에 담긴 얼큰하고 진한 소고기국밥. 김이 모락모락 오르고, 위에 대파와 참깨가 고명으로 올려진 클로즈업 샷. 따뜻한 텅스텐 조명, 원목 식탁 배경. 군침 도는 실사 푸드 포토그래피.",
+      "size": "600x600",
+      "status": "failed",
+      "fallback": "css-gradient-with-phosphor-bowl-steam",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 6,
+      "path": "images/illust_06.png",
+      "prompt": "흰 세라믹 볼에 담긴 색감이 화려한 비빔밥. 나물, 계란 노른자, 참기름이 윤기 있게 빛나는 클로즈업 샷. 위에서 45도 각도. 밝고 따뜻한 자연광. 식욕을 자극하는 실사 푸드 포토그래피.",
+      "size": "860x700",
+      "status": "failed",
+      "fallback": "css-gold-green-gradient-with-blend",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 7,
+      "path": "images/illust_07_a.png",
+      "prompt": "가스레인지 위 냄비에 물이 끓고 있는 장면. 김이 오르는 모습. 따뜻한 주방 배경. 실사 느낌 상단 45도 앵글.",
+      "size": "600x400",
+      "status": "failed",
+      "fallback": "css-gradient-with-phosphor-cooking-pot",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 7,
+      "path": "images/illust_07_b.png",
+      "prompt": "끓는 냄비에 밀키트 파우치 재료를 붓는 손 클로즈업 장면. 신선한 재료들이 국물에 들어가는 순간. 따뜻한 텅스텐 조명. 실사 느낌.",
+      "size": "600x400",
+      "status": "failed",
+      "fallback": "css-gradient-with-phosphor-package",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 7,
+      "path": "images/illust_07_c.png",
+      "prompt": "예쁜 세라믹 그릇에 완성된 요리를 담는 장면. 고명을 올리는 손. 따뜻한 저녁 조명, 원목 식탁. 군침 도는 완성 요리 실사 느낌.",
+      "size": "600x400",
+      "status": "failed",
+      "fallback": "css-gradient-with-phosphor-bowl-food",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    },
+    {
+      "section_number": 9,
+      "path": "images/illust_09.png",
+      "prompt": "마치 실제 고객이 스마트폰으로 찍은 듯한 자연스러운 완성 요리 사진. 집 주방이나 식탁에서 찍은 느낌. 약간 따뜻하고 편안한 필터. 그릇에 예쁘게 담긴 국밥 또는 비빔밥. 아늑한 집밥 감성.",
+      "size": "600x600",
+      "status": "skipped",
+      "fallback": "css-avatar-circle-with-initial",
+      "note": "이미지 대신 56px 원형 아바타(이니셜 'P')로 대체"
+    },
+    {
+      "section_number": 12,
+      "path": "images/illust_12.png",
+      "prompt": "퇴근 후 아늑한 집 거실에서 따뜻한 조명 아래 혼자 예쁜 그릇에 담긴 밀키트 요리를 즐기는 직장인(20-30대, 성별 무관)의 측면 또는 반측면 감성 사진. 따뜻하고 행복한 분위기. 소파 또는 식탁. 따뜻한 앰버 톤 조명.",
+      "size": "860x1000",
+      "status": "failed",
+      "fallback": "css-dark-gradient-with-overlay",
+      "error": "API 키가 imagen-3.0-generate-002 모델에 접근할 수 없음"
+    }
+  ],
+  "layout_pattern_summary": [
+    "section-01: hero-immersive (풀스크린 1200px)",
+    "section-02: icon-grid (중앙 정렬, 3열 카드)",
+    "section-03: feature-split (좌 이미지/우 텍스트)",
+    "section-04: image-overlay (풀너비 다크 + 딤드)",
+    "section-05: feature-split (좌 텍스트/우 이미지 — 03과 교대)",
+    "section-06: image-text-blend (우측 텍스트, 좌→우 그라데이션)",
+    "section-07: step-list (중앙 정렬, 3열 스텝 + 시간 배너)",
+    "section-08: review-cards (3열 흰색 카드)",
+    "section-09: two-column (좌 통계 카드 + 우 스토리 후기)",
+    "section-10: faq-list (Q&A 5개 세로 나열)",
+    "section-11: info-table (헤더 + 8행 테이블)",
+    "section-12: cta-banner (풀스크린 1000px + 대형 CTA 버튼)"
+  ],
+  "alignment_variation_check": "중앙 정렬(01, 02, 04, 07, 08, 10, 12) ↔ 좌측 정렬(03 우측 콘텐츠, 05, 09) ↔ 우측 정렬(06 텍스트) 교대 사용으로 단조로움 회피",
+  "background_variation_check": "primary 다크(01, 04, 12) / 흰색(02, 05, 07, 09, 11) / bg_light(03, 06, 08, 10) — 컬러 배경 비율 약 33% (3/12 = primary 다크), 권장 30-40% 범위 충족"
+}

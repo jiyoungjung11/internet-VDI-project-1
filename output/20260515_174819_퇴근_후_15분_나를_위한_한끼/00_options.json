@@ -1,0 +1,35 @@
+{
+  "topic": "퇴근 후 15분 나를 위한 한끼",
+  "topic_slug": "퇴근_후_15분_나를_위한_한끼",
+  "product_category": "간편식/밀키트",
+  "target_audience": "직장인 2030, 혼밥족, 바쁜 현대인",
+  "tone": "신뢰감 있고 매력적인",
+  "section_count": 12,
+  "brand": "default",
+  "figma_upload": true,
+  "figma_url": null,
+  "context_notes": null,
+  "created_at": "2026-05-15T17:48:19+09:00",
+  "brand_config": {
+    "brand": "default",
+    "description": "기본 브랜드 설정 — 기획자가 주제에 맞게 컬러 팔레트를 자유롭게 결정합니다",
+    "color_palette": {
+      "primary": null,
+      "secondary": null,
+      "accent": null,
+      "background": "#FFFFFF",
+      "bg_light": "#F7F5F0",
+      "text_primary": "#1A1A1A",
+      "text_secondary": "#555555"
+    },
+    "typography": {
+      "font_family": "Pretendard",
+      "section_title_size": "52px",
+      "section_title_weight": "700",
+      "body_size": "26px",
+      "body_weight": "400"
+    },
+    "tone": "신뢰감 있고 매력적인",
+    "notes": "primary/secondary/accent는 planner가 주제에 맞게 결정"
+  }
+}

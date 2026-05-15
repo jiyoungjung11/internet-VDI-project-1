@@ -1,0 +1,85 @@
+{
+  "verdict": "revision_needed",
+  "overall_score": 71,
+  "summary": "전체 12섹션 구성, 카피, 레이아웃 다양성, 이커머스 구조는 우수하나 C-2(가독성) 항목에서 복수의 font-size 규칙 위반이 확인되어 revision_needed 판정. 특히 섹션11 섹션 타이틀이 36px(기준 48px)이고, 섹션03~09에 걸쳐 본문·강조 텍스트가 24px 미만으로 설정되어 모바일 가독성 기준을 충족하지 못함. 이미지 전량 CSS 플레이스홀더 대체는 상품성에 영향을 미치나 별도 개선 권고 항목으로 처리.",
+  "category_scores": {
+    "section_structure": {
+      "score": 90,
+      "notes": "12섹션 완성. hero→usp→ingredients→process→feature_detail×2→how_to_use→testimonial×2→faq→notice→cta 스토리라인이 기획 의도대로 구현됨. 각 섹션에 data-role 정확히 부여. 섹션 높이 합산 약 10,200px로 계획과 일치. hero(섹션1)와 cta(섹션12) 모두 컬러 배경 적용 확인."
+    },
+    "copy": {
+      "score": 88,
+      "notes": "~해요체 전체 일관 유지. 각 섹션 헤드라인·서브헤드라인·본문·불릿·FAQ·주의사항이 02_copy.json과 완전 일치. 소셜프루프(별점 4.9, 리뷰 12,300개) 및 법적 의무 사항(알레르기 성분, 유통기한, 원산지 표기) 모두 포함. 건강 효능 과장·경쟁 비방·근거 없는 최상급 표현 없음. '오늘만 10% 할인' 배지는 날짜 기준 할인으로 허용 범위 내."
+    },
+    "html_css": {
+      "score": 55,
+      "notes": "기본 구조(body 860px, #detail-page 860px, Pretendard CDN, :root CSS 변수, body height 제한 없음, overflow:hidden on body 없음, JS 미사용, 외부 CSS 프레임워크 미사용) 모두 충족. C-2 위반 항목: [1] .section-11 .section-title: 36px — 섹션 타이틀 기준 48px 이상 위반(가장 심각). [2] .section-03 .ing-name: 22px — 본문 24px 기준 위반. [3] .section-04 .proc-step-title: 22px — 본문 24px 기준 위반. [4] .section-05 .feat-bullet-title: 20px — 본문 24px 기준 위반. [5] .section-05 .nutrition-tag: 16px — 캡션/부가 설명 18px 기준 위반. [6] .section-11 .notice-table th: 20px, td: 18px — 테이블 본문으로 24px 기준 미달(td는 18px로 캡션 기준 충족이나 본문 역할로 개선 권장). 16px 미만 텍스트는 없음."
+    },
+    "visual_consistency": {
+      "score": 82,
+      "notes": "컬러 팔레트 CSS 변수 일관 사용(primary/#8B3A2A, accent/#D4A843, bg-light/#FAF5EE). 배경색 패턴: primary 다크(01,04,12) / 흰색(02,05,07,09,11) / bg_light(03,06,08,10) — 컬러 배경 비율 25%(3/12), 연속 동일 배경 3회 이상 없음. 레이아웃 10가지 패턴(hero-immersive, icon-grid, feature-split, image-overlay, image-text-blend, step-list, review-cards, two-column, faq-list, info-table, cta-banner) 사용. border-left 장식 없음. accent 색상 배지·강조에만 사용. 이미지 전량 CSS 그라데이션+Phosphor 아이콘 대체로 시각적 식욕 자극 효과 저하."
+    },
+    "ecommerce_quality": {
+      "score": 80,
+      "notes": "hero 소셜프루프(별점+리뷰수), BEST SELLER/NEW 배지, 영양 정보 태그, 리뷰 카드 3개(닉네임+지역), 통계 카드(재구매율78%/평점4.9/판매50만), FAQ 5개(보관·유통기한·알레르기·배송·재구매 할인), 법적 주의사항 8항목, CTA 버튼 구현 완비. 두 가지 시그니처 메뉴(국밥·비빔밥) 교대 소개로 선택 다양성 확보. 가격 정보 미표시(상세페이지 특성상 허용). 실사 이미지 없이 CSS 플레이스홀더만으로는 식욕 자극 효과가 크게 제한됨."
+    }
+  },
+  "revisions": [
+    {
+      "priority": "critical",
+      "category": "C-2 가독성",
+      "location": ".section-11 .section-title",
+      "current_value": "font-size: 36px",
+      "required": "font-size ≥ 48px (섹션 타이틀 기준)",
+      "fix": "font-size: 36px → font-size: 48px 이상으로 상향"
+    },
+    {
+      "priority": "high",
+      "category": "C-2 가독성",
+      "location": ".section-03 .ing-name",
+      "current_value": "font-size: 22px",
+      "required": "font-size ≥ 24px (본문 텍스트 기준)",
+      "fix": "font-size: 22px → font-size: 24px"
+    },
+    {
+      "priority": "high",
+      "category": "C-2 가독성",
+      "location": ".section-04 .proc-step-title",
+      "current_value": "font-size: 22px",
+      "required": "font-size ≥ 24px (본문 텍스트 기준)",
+      "fix": "font-size: 22px → font-size: 24px"
+    },
+    {
+      "priority": "high",
+      "category": "C-2 가독성",
+      "location": ".section-05 .feat-bullet-title",
+      "current_value": "font-size: 20px",
+      "required": "font-size ≥ 24px (본문 강조 텍스트 기준)",
+      "fix": "font-size: 20px → font-size: 24px"
+    },
+    {
+      "priority": "medium",
+      "category": "C-2 가독성",
+      "location": ".section-05 .nutrition-tag",
+      "current_value": "font-size: 16px",
+      "required": "font-size ≥ 18px (캡션/부가 설명 기준)",
+      "fix": "font-size: 16px → font-size: 18px"
+    },
+    {
+      "priority": "medium",
+      "category": "C-2 가독성",
+      "location": ".section-11 .notice-table th, .section-11 .notice-table td",
+      "current_value": "th: 20px, td: 18px",
+      "required": "본문 역할 텍스트로 24px 권장 (td 18px는 캡션 최소 기준은 충족)",
+      "fix": "th font-size: 20px → 24px, td font-size: 18px → 20px 이상 권장"
+    },
+    {
+      "priority": "low",
+      "category": "이미지 품질",
+      "location": "전체 섹션 이미지 영역 (섹션01, 03, 04, 05, 06, 07, 12)",
+      "current_value": "CSS 그라데이션 + Phosphor 아이콘 플레이스홀더",
+      "required": "실사 푸드 포토그래피 이미지",
+      "fix": "GOOGLE_API_KEY 환경변수 설정 후 Gemini 이미지 생성 재시도. 03_design.json의 image_generation_error 참조."
+    }
+  ]
+}

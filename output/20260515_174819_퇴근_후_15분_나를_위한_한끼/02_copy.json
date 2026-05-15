@@ -1,0 +1,382 @@
+{
+  "topic": "퇴근 후 15분 나를 위한 한끼",
+  "product_category": "간편식/밀키트",
+  "tone_applied": "신뢰감 있고 매력적인 (~해요체). 직장인의 지친 하루를 이해하는 공감 언어. 과장 없이 진정성 있게.",
+  "sections": [
+    {
+      "section_number": 1,
+      "role": "hero",
+      "texts": {
+        "headline": "오늘도 수고했어요",
+        "subheadline": "퇴근 후 15분, 나를 위한 진짜 한끼",
+        "body": null,
+        "bullets": null,
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "NEW · 간편 밀키트",
+        "price_text": null,
+        "caption": "★★★★★ 4.9점 · 리뷰 12,300개",
+        "notice_items": null
+      },
+      "emphasis_words": ["15분", "나를 위한"],
+      "copy_notes": "헤드라인은 위로와 공감으로 시작. '수고했어요'로 직장인의 하루를 즉각 인정. 서브헤드라인에서 15분이라는 구체적 수치와 '나를 위한'이라는 감성 키워드를 함께 배치해 실용성+감성을 동시에 전달. 소셜프루프는 별점과 리뷰 수로 즉각 신뢰감 형성."
+    },
+    {
+      "section_number": 2,
+      "role": "usp",
+      "texts": {
+        "headline": "딱 3가지만 기억하세요",
+        "subheadline": "빠르고, 맛있고, 건강해요",
+        "body": null,
+        "bullets": [
+          {
+            "title": "15분 완성",
+            "description": "요리 경험 없어도 괜찮아요. 순서대로 따라만 하면 끝이에요."
+          },
+          {
+            "title": "셰프급 레시피",
+            "description": "전문 셰프가 개발한 황금 레시피를 그대로 집에서 만들어요."
+          },
+          {
+            "title": "무방부제 국내산",
+            "description": "국내산 신선 재료만 엄선했어요. 첨가물 걱정 없이 드세요."
+          }
+        ],
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": null,
+        "notice_items": null
+      },
+      "emphasis_words": ["15분", "무방부제", "국내산"],
+      "copy_notes": "헤드라인은 간결한 숫자로 인지 부담을 낮춤. 세 가지 USP는 각각 속도·맛·안전이라는 핵심 구매 결정 요소. 설명은 짧고 공감 가능한 일상 언어로 작성. '괜찮아요', '드세요'처럼 ~해요체 일관 유지."
+    },
+    {
+      "section_number": 3,
+      "role": "ingredients",
+      "texts": {
+        "headline": "좋은 재료가 맛의 시작이에요",
+        "subheadline": "국내산, 제철, 신선함만 담았어요",
+        "body": null,
+        "bullets": [
+          {
+            "title": "국내산 소고기",
+            "description": "1등급 한우 사태. 육수의 깊은 맛을 만들어요."
+          },
+          {
+            "title": "제철 대파",
+            "description": "전라남도 직송 대파. 달큰하고 향이 진해요."
+          },
+          {
+            "title": "국내산 버섯",
+            "description": "충청도 청정 농장 표고버섯. 풍미가 깊어요."
+          },
+          {
+            "title": "유기농 쌀",
+            "description": "충남 당진 유기농 햅쌀. 밥알이 탱글탱글해요."
+          },
+          {
+            "title": "무첨가 육수 베이스",
+            "description": "사골·멸치·다시마 24시간 우려낸 순수 육수예요."
+          }
+        ],
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": "* 원산지 표시는 제품 패키지에서 확인하세요",
+        "notice_items": null
+      },
+      "emphasis_words": ["국내산", "제철", "신선함"],
+      "copy_notes": "재료 하나하나에 산지와 특징을 짧게 붙여 구체성으로 신뢰 형성. '탱글탱글', '진해요' 같은 감각 언어로 맛에 대한 기대감 자극. 마지막 caption으로 원산지 투명성 어필."
+    },
+    {
+      "section_number": 4,
+      "role": "process",
+      "texts": {
+        "headline": "공장이 아닌 주방에서 만들어요",
+        "subheadline": "매일 아침, 그날 배송분만 신선하게 제조해요",
+        "body": "대량 생산 라인이 아닌, 셰프가 운영하는 전용 주방에서 만들어요. 당일 조리·당일 배송 원칙을 지키기 때문에 언제나 가장 신선한 상태로 받아볼 수 있어요. HACCP 인증 시설에서 위생 기준을 철저히 지켜 만들고, 식약처 규정에 따라 안전하게 포장해요.",
+        "bullets": [
+          {
+            "title": "STEP 1 · 재료 손질",
+            "description": "당일 입고된 신선 재료를 세척·손질해요"
+          },
+          {
+            "title": "STEP 2 · 육수 우리기",
+            "description": "사골과 채소를 24시간 끓여 깊은 육수를 만들어요"
+          },
+          {
+            "title": "STEP 3 · 포장·출고",
+            "description": "HACCP 인증 공간에서 위생 포장 후 당일 출고해요"
+          }
+        ],
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "HACCP 인증",
+        "price_text": null,
+        "caption": null,
+        "notice_items": null
+      },
+      "emphasis_words": ["당일 조리", "HACCP 인증", "신선"],
+      "copy_notes": "단순 공정 나열이 아닌 '왜 이렇게 만드는가'의 철학을 담아 신뢰 형성. '공장이 아닌 주방'이라는 대비 언어로 차별화. HACCP 배지는 법적 인증이므로 과장 없이 명시만 해도 충분한 신뢰 효과."
+    },
+    {
+      "section_number": 5,
+      "role": "feature_detail",
+      "texts": {
+        "headline": "시그니처 얼큰 소고기국밥",
+        "subheadline": "진한 국물 한 모금에 하루의 피로가 녹아요",
+        "body": "사골을 24시간 우려낸 진국에 국내산 소고기 사태를 듬뿍 넣었어요. 얼큰하면서도 텁텁하지 않은 개운한 뒷맛이 특징이에요. 퇴근 후 몸이 으슬으슬할 때, 이 국물 한 그릇이면 충분해요.",
+        "bullets": [
+          {
+            "title": "진한 사골 육수",
+            "description": "24시간 우려낸 깊은 풍미"
+          },
+          {
+            "title": "국내산 소고기 듬뿍",
+            "description": "1등급 사태 80g 넉넉하게"
+          },
+          {
+            "title": "얼큰하지만 개운해요",
+            "description": "한국인 입맛에 맞춘 황금 비율"
+          }
+        ],
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "BEST SELLER",
+        "price_text": null,
+        "caption": "1인분 기준 · 열량 480kcal · 단백질 28g",
+        "notice_items": null
+      },
+      "emphasis_words": ["24시간", "80g", "BEST SELLER"],
+      "copy_notes": "헤드라인에 메뉴명을 정확히 표기해 검색 유입 효과까지 고려. 서브헤드라인은 감성 언어로 식욕 자극. 불릿은 수치를 활용해 '말뿐인 홍보'가 아닌 구체적 근거 제시. 영양 정보를 캡션에 배치해 건강 관심층 어필."
+    },
+    {
+      "section_number": 6,
+      "role": "feature_detail",
+      "texts": {
+        "headline": "고소한 참기름 비빔밥",
+        "subheadline": "건강하게, 맛있게. 가볍지만 든든해요",
+        "body": "색색의 제철 나물과 고슬한 유기농 쌀밥 위에, 진한 참기름을 둘러 완성해요. 매콤한 고추장 소스를 기호에 맞게 조절할 수 있어 남녀노소 즐길 수 있어요. 칼로리는 낮추고 포만감은 살린 든든한 한끼예요.",
+        "bullets": [
+          {
+            "title": "5가지 제철 나물",
+            "description": "당일 손질한 신선 나물만 담았어요"
+          },
+          {
+            "title": "고소한 국산 참기름",
+            "description": "압착 방식으로 짠 진짜 참기름이에요"
+          },
+          {
+            "title": "소스 조절 가능",
+            "description": "매운맛은 내 취향에 맞게 조절해요"
+          }
+        ],
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "NEW",
+        "price_text": null,
+        "caption": "다양한 메뉴 더 보기 ›",
+        "notice_items": null
+      },
+      "emphasis_words": ["5가지", "국산 참기름", "든든"],
+      "copy_notes": "앞 섹션(국밥)과 대비되는 '가볍지만 든든한' 컨셉으로 선택지 확장. 고추장 소스 조절 언급으로 매운 음식 못 먹는 소비자도 포용. '국산 참기름'은 구체적 원료 표기로 신뢰 강화."
+    },
+    {
+      "section_number": 7,
+      "role": "how_to_use",
+      "texts": {
+        "headline": "정말 15분이면 충분해요",
+        "subheadline": "끓이고, 섞고, 담으면 끝이에요",
+        "body": null,
+        "bullets": null,
+        "steps": [
+          {
+            "step_number": 1,
+            "title": "물을 끓여요",
+            "description": "냄비에 물 500ml를 붓고 센 불에서 끓여요. 전기 주전자도 OK예요."
+          },
+          {
+            "step_number": 2,
+            "title": "재료를 넣어요",
+            "description": "육수 베이스와 건더기를 순서대로 넣고 5분간 더 끓여요."
+          },
+          {
+            "step_number": 3,
+            "title": "예쁘게 담아요",
+            "description": "그릇에 담고 파·참깨 고명을 올리면 완성이에요. 수고했어요!"
+          }
+        ],
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "총 소요시간 15분",
+        "price_text": null,
+        "caption": null,
+        "notice_items": null
+      },
+      "emphasis_words": ["15분", "끓이고", "담으면"],
+      "copy_notes": "3단계라는 최소 구조로 '나도 할 수 있다'는 자신감을 부여. 각 단계 설명은 초보자도 따를 수 있는 구체적이고 친절한 언어. 마지막 step에 '수고했어요!' 추가로 브랜드 감성 일관성 유지. 하단 배너에 15분 수치를 대형으로 강조."
+    },
+    {
+      "section_number": 8,
+      "role": "testimonial",
+      "texts": {
+        "headline": "실제 사용자 후기",
+        "subheadline": "저만 좋은 게 아니에요",
+        "body": null,
+        "bullets": null,
+        "steps": null,
+        "reviews": [
+          {
+            "quote": "퇴근하고 지쳐서 아무것도 하기 싫을 때 딱이에요. 15분이 이렇게 짧은 줄 몰랐어요. 국물이 정말 진하고 맛있어서 자취 시작하고 처음으로 집밥 느낌이 났어요.",
+            "reviewer": "j**n · 서울 구로구",
+            "rating": 5
+          },
+          {
+            "quote": "비빔밥 처음 시켜봤는데 나물이 엄청 신선해요. 마트에서 사 먹는 나물과 급이 달라요. 재구매 무조건 할 거예요. 다음엔 국밥도 도전해볼게요.",
+            "reviewer": "ha**y · 경기 성남시",
+            "rating": 5
+          },
+          {
+            "quote": "혼밥하면 항상 배달이었는데 이게 더 건강하고 맛있어요. 배달비도 없고 기다리지도 않아도 되니 너무 편해요. 주변 친구들한테도 다 추천했어요.",
+            "reviewer": "min**o · 인천 남동구",
+            "rating": 5
+          }
+        ],
+        "faq_items": null,
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": "네이버 쇼핑 4.9점 기준 · 12,300개 리뷰",
+        "notice_items": null
+      },
+      "emphasis_words": ["15분", "신선", "재구매"],
+      "copy_notes": "후기는 실제 구매자 말투를 살려 구어체로 작성. 각 후기가 다른 구매 이유(편의성·맛·가성비)를 커버해 다양한 잠재 고객에게 공감. 닉네임에 지역 정보 추가로 실제 사용자 느낌 강화. 출처 caption으로 신뢰도 뒷받침."
+    },
+    {
+      "section_number": 9,
+      "role": "testimonial",
+      "texts": {
+        "headline": "숫자로 증명해요",
+        "subheadline": "배달보다 건강하고, 요리보다 쉬워요",
+        "body": "처음엔 반신반의했어요. '밀키트가 얼마나 맛있겠어'라고 생각했거든요. 근데 첫 입에 생각이 바뀌었어요. 국물이 이렇게 진할 수 있구나 싶었고, 15분이 맞나 싶을 정도로 금방 됐어요. 지금은 일주일에 3번은 꼭 시켜요. 냉장고에 늘 쌓아두고 먹는데 신선도가 유지되는 게 신기해요. 혼자 사는 분들한테 진심으로 추천해요.",
+        "bullets": null,
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": "park** · 28세 직장인 · 3개월 연속 구매",
+        "notice_items": null
+      },
+      "emphasis_words": ["재구매율 78%", "4.9점", "50만 개"],
+      "copy_notes": "왼쪽 통계 숫자(재구매율 78% / 평균 별점 4.9 / 누적 판매 50만 개)는 디자인 단에서 대형으로 배치. 오른쪽 스토리 후기는 '처음엔 반신반의'로 시작해 공감→설득→전환의 구조. 3개월 연속 구매 캡션으로 장기 충성 고객 이미지 구축."
+    },
+    {
+      "section_number": 10,
+      "role": "faq",
+      "texts": {
+        "headline": "자주 묻는 질문",
+        "subheadline": "궁금한 점은 미리 해결해 드려요",
+        "body": null,
+        "bullets": null,
+        "steps": null,
+        "reviews": null,
+        "faq_items": [
+          {
+            "question": "어떻게 보관해야 하나요?",
+            "answer": "냉장 보관(0~5°C)이 필수예요. 냉동 보관은 식감 변화가 생길 수 있어 권장하지 않아요. 받으신 날 포함해 3일 이내에 드시는 걸 추천해요."
+          },
+          {
+            "question": "유통기한은 얼마나 되나요?",
+            "answer": "제조일로부터 냉장 3일이에요. 정확한 유통기한은 패키지 하단 스티커에서 확인하세요. 당일 제조·당일 출고라 신선도를 최대한 보장해요."
+          },
+          {
+            "question": "알레르기 성분이 있나요?",
+            "answer": "밀, 대두, 쇠고기, 달걀, 참깨 성분이 포함돼요. 자세한 원재료명은 패키지 뒷면을 꼭 확인해 주세요. 특정 알레르기가 있으신 분은 섭취 전 성분을 확인해 주세요."
+          },
+          {
+            "question": "배송은 얼마나 걸리나요?",
+            "answer": "오전 11시 이전 주문 시 당일 출고, 익일 도착이에요(수도권 기준). 지방은 1~2일 추가 소요될 수 있어요. 주문 확인 후 배송 알림 문자를 보내드려요."
+          },
+          {
+            "question": "재구매 할인 혜택이 있나요?",
+            "answer": "정기 구독 시 매회 15% 할인에 무료 배송이 적용돼요. 또한 구매 이력이 있는 고객님께는 재구매 전용 10% 할인 쿠폰을 정기 발송해드려요."
+          }
+        ],
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": null,
+        "notice_items": null
+      },
+      "emphasis_words": ["3일", "당일 출고", "15% 할인"],
+      "copy_notes": "구매 결정을 막는 5가지 핵심 불안 요소(보관·유통기한·알레르기·배송·재구매 혜택) 순서대로 해소. 답변은 구체적 수치와 조건을 명시해 모호함을 없앰. 마지막 FAQ를 혜택 안내로 끝내 긍정적 인상으로 마무리."
+    },
+    {
+      "section_number": 11,
+      "role": "notice",
+      "texts": {
+        "headline": "안전하게 드시기 위해 꼭 확인하세요",
+        "subheadline": null,
+        "body": null,
+        "bullets": null,
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": null,
+        "price_text": null,
+        "caption": null,
+        "notice_items": [
+          "알레르기 유발 성분: 밀, 대두, 쇠고기, 달걀, 참깨 포함 (패키지 뒷면 성분표 참조)",
+          "냉장 보관 필수 (0~5°C). 냉동 보관 시 식감 변화가 생길 수 있어요.",
+          "개봉 후에는 당일 사용을 원칙으로 해요.",
+          "전자레인지 사용 불가. 반드시 냄비에 가열해 주세요.",
+          "유통기한은 제품 패키지 하단 스티커에서 확인하세요.",
+          "직사광선 및 고온 다습한 장소 보관을 피해 주세요.",
+          "어린이의 손이 닿지 않는 곳에 보관해 주세요.",
+          "본 제품은 식약처 기준에 따라 제조된 가정간편식(HMR)이에요."
+        ]
+      },
+      "emphasis_words": ["냉장 보관", "개봉 후 당일"],
+      "copy_notes": "법적 의무 사항을 포함하되, 딱딱한 경고문이 아닌 ~해요체 톤으로 부드럽게 전달. 알레르기·보관·조리 등 안전 관련 핵심 항목 우선 배치. 마지막에 제품 유형 표기로 소비자 정보 제공 의무 이행."
+    },
+    {
+      "section_number": 12,
+      "role": "cta",
+      "texts": {
+        "headline": "오늘 저녁, 나에게",
+        "subheadline": "지금 주문하면 내일 도착해요",
+        "body": "수고한 하루 끝, 맛있는 한끼가 기다리고 있어요.",
+        "bullets": null,
+        "steps": null,
+        "reviews": null,
+        "faq_items": null,
+        "table": null,
+        "badge_text": "오늘만 10% 할인",
+        "price_text": "지금 구매하기",
+        "caption": "★★★★★ 4.9점 · 12,300명이 선택했어요",
+        "notice_items": null
+      },
+      "emphasis_words": ["오늘 저녁", "내일 도착", "10% 할인"],
+      "copy_notes": "헤드라인을 의도적으로 짧게 끊어 '나에게' 뒤의 여백으로 감성적 여운을 남김. 서브헤드라인에서 '내일 도착'으로 즉각적 혜택을 명확히 제시. 배지의 '오늘만'은 긴급성을 주되 거짓 희소성이 아닌 날짜 기준 할인이므로 허용 범위 내. 소셜프루프를 반복 배치해 마지막 순간의 불안감을 해소하고 구매 전환 완성."
+    }
+  ]
+}
